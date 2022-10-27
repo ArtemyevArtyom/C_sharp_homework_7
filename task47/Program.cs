@@ -45,5 +45,5 @@ void print2DArray(double[,] arrayToPrint)
     }
 }
 
-double[,] generateArray = generate2DArray(7, 5, -10, 10);
+double[,] generateArray = generate2DArray(3, 4, -10, 10);
 print2DArray(generateArray);

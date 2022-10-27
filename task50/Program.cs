@@ -55,12 +55,13 @@ void getPositionOfElement(int[,] positionArray, int usernumber)
             }
         }
     }
+
     Console.WriteLine("Такого элемента нет в массиве");
 }
-Console.WriteLine("Введите позицию элемента");
+Console.Write("Введите позицию элемента");
 
 int usernumber = Convert.ToInt32(Console.ReadLine());
-int[,] generateArray = generate2DArray(3, 3, -10, 10);
+int[,] generateArray = generate2DArray(3, 3, -5, 5);
 print2DArray(generateArray);
 System.Console.WriteLine();
 
